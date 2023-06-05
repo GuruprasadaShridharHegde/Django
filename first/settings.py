@@ -65,6 +65,7 @@ TEMPLATES = [
             ],
         },
     },
+    
 ]
 
 WSGI_APPLICATION = 'first.wsgi.application'
