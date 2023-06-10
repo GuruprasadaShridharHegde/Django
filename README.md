@@ -13,5 +13,7 @@ virtulenv myenv ( virtualenv env_name)
 
 To start a project.
 In the same myenv type
-django-admin startproject core (django-admin startproject project_name)
+1.django-admin startproject core (django-admin startproject project_name)
+2.cd core
+3. code .
 
