@@ -3,6 +3,6 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 def home(requests): # this is a route
-    return HttpResponse("Hey I am a Django Server")
+    return HttpResponse("<h1>Hey I am a Django Server</h1>")
 
  
