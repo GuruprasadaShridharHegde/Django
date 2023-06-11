@@ -29,15 +29,24 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+# below are inbuilt apps , so to differentiate we will take exterbal apps as different
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles', 
+
 ]
+
+# Below added by me
+EXTERNAL_APPS = [
+    'accounts',
+    'home'
+]
+INSTALLED_APPS = INSTALLED_APPS + EXTERNAL_APPS
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
