@@ -20,6 +20,6 @@ from django.urls import path
 from home.views import *
 urlpatterns = [
     path('', home , name = "home"), # here '',this is a blank route, inside that call home function written at views.
-
+    path('success_page' ,success_page, name = "success_page"),
     path('admin/', admin.site.urls),
 ]
