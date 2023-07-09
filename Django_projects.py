@@ -1,4 +1,5 @@
 # Django
+
 Best projects to learn in Django
 ### Crud Operation -- To DO or Blog application
 ### Authentication with email verification
